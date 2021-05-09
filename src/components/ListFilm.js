@@ -32,7 +32,7 @@ class ListFilm extends React.Component {
     return (
       <View style={styles.main_container}>
         <View style={styles.btn_container}>
-          <Button color="#ff4d01" title='Ajouter un film' onPress={() => this.props.navigation.navigate("AddFilm", {
+          <Button color="#ff4d01" title='Add a film' onPress={() => this.props.navigation.navigate("AddFilm", {
            addFilm: film => this.addFilm(film)
           })}/>
         </View>
